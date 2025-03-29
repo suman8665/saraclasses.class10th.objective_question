@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+
+    >
+
+
+
+
+    <item android:id="@+id/share"
+        android:title="Share This Application"
+        android:icon="@drawable/share"/>
+
+
+
+    <item android:id="@+id/rate"
+        android:title="Rate This Application"
+        android:icon="@drawable/review"/>
+
+    <item android:id="@+id/email"
+        android:title="Contact Us"
+        android:icon="@drawable/email"/>
+
+    <item android:id="@+id/objective"
+        android:title="Objective"
+        android:icon="@drawable/book"/>
+
+    <item android:id="@+id/md"
+        android:title="Model Paper"
+        android:icon="@drawable/book"/>
+
+    <item android:id="@+id/qb"
+        android:title="Question Bank"
+        android:icon="@drawable/book"/>
+
+    <item android:id="@+id/test"
+        android:title="Objective Test"
+        android:icon="@drawable/book"/>
+
+</menu>
