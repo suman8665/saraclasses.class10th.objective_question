@@ -44,7 +44,7 @@ public class ads_manager {
 
         AdView adView = new AdView(context);
         adView.setAdSize(AdSize.BANNER);
-        adView.setAdUnitId("ca-app-pub-6013617437235854/1216022514");
+        adView.setAdUnitId("ca-app-pub-6013617437235854/9708308944");
         layout.addView(adView);
 
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -64,7 +64,7 @@ public class ads_manager {
 
                 AdRequest adRequest = new AdRequest.Builder().build();
 
-                InterstitialAd.load(context, "ca-app-pub-6013617437235854/6561548650", adRequest,
+                InterstitialAd.load(context, "ca-app-pub-6013617437235854/7967119348", adRequest,
                         new InterstitialAdLoadCallback() {
                             @Override
                             public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
